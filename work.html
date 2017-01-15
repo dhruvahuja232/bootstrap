@@ -1,0 +1,288 @@
+<doctype html!>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bootstrap.min.css">
+ <script type="javascript" src="bootstrap.min.js">
+ </script>
+</head>
+<body>
+	<div class="well" style="padding-left: 20px;">
+		<img class="image" src="Abaxs.png" style="background-color:white; height:30px;">
+	</div>	
+	<div class="container-fluid">
+		<form class="form-horizontal" method="post">
+			<div class="panel panel-default"> 
+				<div class="panel-heading"> Student Information Form </div>				
+					<div class="panel-body">
+						<div class="form-group">
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+								<div class="col-xs-6">
+									<label class="control-label"  for="name">First Name: </label>
+									<input type="text" class="form-control form-control-success input-sm" id="name" placeholder="First" style="padding-top:10px;" required>
+								</div>
+								<div class="col-xs-6">
+									<label class="control-label" for="name"> Last name: </label>
+									<input type="text" class="form-control input-sm" id="name" placeholder="Last" style="padding-top:10px;" required>						
+								</div>	
+							</div>
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+								<div class="col-xs-12">
+									<label class="control-label"  for="Address"> Address: </label>
+									<input type="text" class="form-control input-sm" id="address" placeholder="Address line 1" style="padding-top:10px; padding-bottom:10px;" required>
+									<input type="text" class="form-control input-sm" id="address" placeholder="Address line 2" required>
+								</div>
+							</div>	
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">	
+								<div class="col-xs-4">
+									<label class="control-label"  for="city"> City: </label>
+									<input type="text" class=" form-control input-sm" id="ex1" placeholder="Your City" style="padding-top:10px;" required>
+								</div>	
+								<div class="col-xs-4">
+									<label class="control-label"  for="state"> State/Region: </label>
+									<input type="text" class="form-control input-sm" id="ex2" placeholder="Your State/Region" style="padding-top:10px;" required>
+								</div>
+								<div class="col-xs-4">
+									<label class="control-label"  for="zipcode"> Zipcode: </label>
+									<input type="text" class="form-control input-sm" id="ex3" placeholder="Zipcode" style="padding-top:10px;" required>
+								</div>	
+							</div>
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+								<div class="col-xs-6">
+									<label class="control-label"  for="email"> E-mail Address: </label>
+									<input type="text" class="form-control input-sm" id="ex1" placeholder="Your E-mail Address" style="padding-top:10px;" required>
+								</div>
+								<div class="col-xs-6">
+									<label class="control-label"  for="numebr"> Phone Number: </label>
+									<input type="text" class="form-control input-sm" id="ex2" placeholder="Your Phone Number" style="padding-top:10px;" required>
+								</div>
+							</div>
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+								<div class="col-xs-8">
+									<label class="control-label"  for="d.o.b" style="padding-bottom:3px;"> Date Of Birth: </label><br>
+									<div class="date">
+										<button class="btn btn-default dropdown-toggle" type="button" id="menu1" style="padding-top:10px; background-color:lightgrey; height: 28px;" required>DD
+										<span class="caret"></span></button>
+										<button class="btn btn-default dropdown-toggle" type="button" id="menu1" style="padding-top:10px; background-color:lightgrey; height: 28px;" required>MM
+										<span class="caret"></span></button>
+										<button class="btn btn-default dropdown-toggle" type="button" id="menu1" style="padding-top:10px; background-color:lightgrey; height: 28px;" required>YY
+										<span class="caret"></span></button>
+									</div>
+								</div>
+								<div class="col-xs-4" style="padding-top: 10px;">
+									<label for="status"> Marital Status: </label>
+									<div class="marital" style="padding-left: 5px; padding-right: 5px;">
+										<label class="radio-inline" style="padding-top:10px;">
+											<input type="radio" name="optradio" required><label for="single">Single</label>
+										</label>	
+										<label class="radio-inline" style="padding-top:10px;">
+											<input type="radio" name="optradio" required><label for="married"> Married</label>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">
+								<div class="col-xs-6">
+									<label class="control-label"  for="name">Spouse First Name(If Married): </label>
+									<input type="text" class="form-control form-control-success input-sm" id="name" placeholder="First" style="padding-top:10px;" required>
+								</div>
+								<div class="col-xs-6">
+									<label class="control-label" for="name"> Last name: </label>
+									<input type="text" class="form-control input-sm" id="name" placeholder="Last" style="padding-top:10px;" required>						
+								</div>	
+							</div>
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">	
+								<div class="col-xs-4">
+									<label class="control-label"  for="city"> Date of Marriage: </label>
+									<input type="text" class=" form-control input-sm" id="ex1" placeholder="DD/MM/YY" style="padding-top:10px;" required>
+								</div>	
+								<div class="col-xs-3">
+									<label class="control-label"  for="state"> Spouse Occupation: </label>
+									<input type="text" class="form-control input-sm" id="ex2" placeholder="Spouse Occupation" style="padding-top:10px;" required>
+								</div>
+								<div class="col-xs-4">
+									<label class="control-label"  for="state"> Spouse Qualifications: </label><br>
+									<button class="btn btn-default dropdown-toggle" type="button" id="menu1" style="background-color:lightgrey; padding-top: 10px; height: 29px; widht; 19px;"  required>10th Pass
+									<span class="caret"></span></button>
+								</div>
+							</div>							
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">	
+								<div class="col-xs-4">
+									<label class="control-label"  for="country" style="padding-top: 8px;"> Preferred City/Country: </label>
+									<input type="text" class="form-control input-sm" id="ex1" placeholder="City/Country" style="padding-top:10px;" required>
+								</div>
+								<div class="col-xs-2" style="padding-right:2px;padding-top: 2px;">
+									<label class="control-label"  for="intake"> Preffered </label>
+									<input type="text" class="form-control input-sm" id="ex2" placeholder="Month" style="padding-top:10px;" required>					
+								</div>
+								<div class="col-xs-2">
+									<label class="control-label"  for="intake"> Intake: </label>							
+									<input type="text" class="form-control input-sm" id="ex2" placeholder="Year" style="padding-top:10px;" required>					
+								</div>
+								<div class="col-xs-4">
+									<label class="control-label"  for="Stream" style="padding-top: 10px;"> Preferred Stream: </label>
+									<input type="text" class="form-control input-sm" id="ex1" placeholder="IT, Business,etc" required>
+								</div>
+							</div>
+							<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px;">	
+								<div class="col-xs-5">
+									<label for="visa"> Any Previous Visa Rejection: </label>
+									<div class="visa" style="padding-left: 5px; padding-right: 5px; padding-top:10px">
+										<label class="radio-inline">
+											<input type="radio" name="optradio" required><label for="Yes">Yes</label>
+										</label>	
+										<label class="radio-inline">
+											<input type="radio" name="optradio" required><label for="No">No</label>
+										</label>									
+									</div>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+			<div class="panel panel-default"> 
+				<div class="panel-heading"> Educational Qualifications </div>				
+					<div class="panel-body">
+						<div class="table-responsive">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th>Level</th>
+										<th>Fields/Subjects</th>
+										<th>Year of Passing</th>
+										<th>Percentage%</th>
+										<th>Backlog(if any)</th>
+										<th>Board/University</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Matric(10th)</td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+									</tr>
+									<tr> 
+										<td>10+2</td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+									</tr>
+									<tr>
+										<td>Graduation</td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+									</tr>
+									<tr >
+										<td>Post-Graduation</td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+									</tr>
+									<tr>
+										<td>Diploma</td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>									
+									</tr>
+									<tr>
+										<td>Any Other Qualification</td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+										<td><input type="text" required></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default"> 
+					<div class="panel-heading">IELTS/TOEFL </div>				
+						<div class="panel-body">
+							<div class="table-responsive">
+								<table class="table table-bordered">
+									<thead>
+										<tr>	
+										<th>IELTS/TOEFL</th>
+										<th>Test Taken Date</th>
+										<th>Listening</th>
+										<th>Reading</th>
+										<th>Writing</th>
+										<th>Speaking</th>
+										<th>Overall band</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><input type="text" class="col-xs-12" required></td>
+										<td><input type="text" class="col-xs-12" required></td>
+										<td><input type="text" class="col-xs-12" required></td>
+										<td><input type="text" class="col-xs-12" required></td>
+										<td><input type="text" class="col-xs-12" required></td>
+										<td><input type="text" class="col-xs-12" required></td>
+										<td><input type="text" class="col-xs-12" required></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>	
+				<div class="panel panel-default"> 
+					<div class="panel-heading">Student Information Form </div>				
+						<div class="panel-body">
+							<div class="table-responsive">
+								<table class="table table-bordered">
+									<thead>
+										<tr>	
+											<th>Name of Employer</th>
+											<th>Address of Employer with Phone No.</th>
+											<th>Your Designation</th>
+											<th>Salary(Monthly)</th>
+											<th>From</th>
+											<th>To</th>				
+										</tr>
+									</thead>
+									<tbody>	
+										<tr>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>		 
+										</tr>
+										<tr>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>
+											<td><input type="text" class="col-xs-12" required></td>		 
+										</tr>
+								  </tbody>
+							  </table>
+							</div>
+						</div>			
+					</div>	
+		    	<button type="submit" class="btn btn-success btn-block ">Submit</button>
+			</form>
+	   </div>
+</body>
+</html>
