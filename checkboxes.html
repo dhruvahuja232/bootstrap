@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+$('.single-checkbox').on('change', function() {
+   if($('.single-checkbox:checked').length > 3) {
+       this.checked = false;
+       alert("you can not select more than 3");
+   }
+});
+	
+	
+$('.single-checkbox2').on('change', function() {
+   if($('.single-checkbox2:checked').length > 1) {
+       this.checked = false;
+	   alert("you can not select anyother day")
+   }
+});
+</script>
+<h1> Select any three days </h1>
+<input class="single-checkbox" type="checkbox" name="test" value="monday" /> Monday <br />
+<input class="single-checkbox" type="checkbox" name="test" value="tuesday" /> Tuesday <br />
+<input class="single-checkbox" type="checkbox" name="test" value="wednesday" /> Wednesday <br />
+<input class="single-checkbox" type="checkbox" name="test" value="thrusday" /> Thursday <br />
+<input class="single-checkbox" type="checkbox" name="test" value="friday" /> Friday <br />
+<input class="single-checkbox" type="checkbox" name="test" value="saturday" /> Satruday <br />
+<input class="single-checkbox" type="checkbox" name="test" value="sunday" /> Sunday <br />
+<input class="single-checkbox2" type="checkbox" name="test" value="none" /> None <br />	
+</body>
+</html>
